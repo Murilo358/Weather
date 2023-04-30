@@ -273,7 +273,7 @@ body {
   height: 18px;
 }
 
-/* .switch:hover */
+/* Theme switcher */
 .sun svg {
   animation: rotate 15s linear infinite;
 }
@@ -361,19 +361,26 @@ body {
 #details-container,
 #minMaxContainer {
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 2rem;
 }
 
 #minMaxContainer #minTemp {
-  border-right: 1px solid #fdfdfd;
-  margin: 0.5rem;
-  padding: 0.5rem;
+  border-right: 2px solid #fdfdfd;
 }
 
-#details-container #humidity {
-  margin: 0.5rem;
-  padding: 0.5rem;
+#wind {
+  padding-left: 1.5rem;
+}
+
+#minTemp {
+  padding-right: 0.3rem;
+}
+
+#maxTemp {
+  padding-left: 0.9rem;
 }
 
 @media (max-width: 470px) {
